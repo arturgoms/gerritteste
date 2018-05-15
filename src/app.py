@@ -12,7 +12,7 @@ app.secret_key = b'_5#y2L"F4qwQ8z\n\xec]/'
 
 aio = AioHTTP(app)
 
-@app.route('/', defaults={'arg': 'Index'}) 
+@app.route('/', defaults={'arg': 'teste gerrit'}) 
 @app.route('/<arg>')
 @async
 def index(arg):
